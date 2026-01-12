@@ -1,4 +1,19 @@
+### Create blank project:
+
+```
 npm create vite@latest  
-sudo chown -R $USER:staff .
-sudo npm i react-router-dom
-npm install tailwindcss @tailwindcss/vite
+```
+
+### MacOS:
+
+```
+sudo npm install
+```
+
+```
+sudo chown -R $(whoami) node_modules/
+```
+
+```
+npm run dev
+```
